@@ -30,7 +30,6 @@ export default {
         return {
             search: '',
             albums: Albums.albums,
-            photosPerPage: 3 /* photos */ * 9 /* rows */,
         };
     },
     computed: {

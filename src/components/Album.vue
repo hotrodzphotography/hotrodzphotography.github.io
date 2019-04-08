@@ -59,7 +59,6 @@ export default {
             return date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
         },
         albumLoaded: function () {
-            console.log('LOADED!');
             this.albumPreviewLoaded = true;
         },
         trackEvent: function (action, label) {
