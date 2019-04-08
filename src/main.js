@@ -6,7 +6,6 @@ import router from './router';
 import VueAnalytics from 'vue-analytics';
 import Rollbar from 'vue-rollbar';
 import VueLazyload from 'vue-lazyload';
-import VuePaginate from 'vue-paginate';
 
 Vue.config.productionTip = false;
 const IS_PRODUCTION = process.env.NODE_ENV === 'production';
@@ -50,27 +49,11 @@ Vue.use(VueLazyload, {
     lazyComponent: true
 });
 
-Vue.use(VuePaginate);
-
 new Vue({
     router,
     render: h => h(App)
 }).$mount('#app');
 
 Vue.mixin({
-    methods: {
-        // https://codeburst.io/throttling-and-debouncing-in-javascript-646d076d0a44
-        debounced: function(delay, fn) {
-            let timerId;
-            return function (...args) {
-                if (timerId) {
-                    clearTimeout(timerId);
-                }
-                timerId = setTimeout(() => {
-                    fn(...args);
-                    timerId = null;
-                }, delay);
-            };
-        }
-    }
+    methods: {}
 });
