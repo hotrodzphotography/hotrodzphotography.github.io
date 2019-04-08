@@ -2,7 +2,7 @@
     <div class="photo">
         <div class="card">
             <div class="card-image">
-                <a :href="album.url" rel="noopener" v-on:click="trackClick('click', album.name)">
+                <a :href="album.url" rel="noopener" v-on:click="trackEvent('click', album.name)">
                     <img v-lazy="album.albumCoverUrl" alt="Album Cover Photograph" v-on:load="albumLoaded">
                 </a>
             </div>
@@ -11,7 +11,7 @@
                 <div class="card-footer">
                     <div class="card-details">
                         <p class="title">
-                            <a :href="album.url" rel="noopener" v-on:click="trackClick('click', album.name)">
+                            <a :href="album.url" v-on:click="trackEvent('click', album.name)">
                                 {{album.name}}
                             </a>
                         </p>

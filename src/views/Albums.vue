@@ -2,7 +2,6 @@
     <div id="photography">
         <h2>Albums</h2>
         <div id="album-count">
-
             <div>
                 <label for="search">Search albums: </label>
                 <input id="search" v-model="search" type="text" placeholder="Search albums.." autofocus>
