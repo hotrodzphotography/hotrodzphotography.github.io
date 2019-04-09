@@ -63,6 +63,19 @@ export default {
         #album-count {
             float: right;
 
+            #search {
+                padding: 0 0.75rem;
+                font-size: .75rem;
+                min-height: 2em;
+                color: #495057;
+                background-color: #fff;
+                border: 1px solid #c0c0c0;
+                border-radius: 0.25rem;
+                -webkit-transition: 0.15s ease;
+                transition: 0.15s ease;
+                overflow: visible;
+            }
+
             p {
                 text-align: right;
             }
