@@ -4,7 +4,7 @@
         <div id="album-count">
             <div>
                 <label for="search">Search albums: </label>
-                <input id="search" v-model="search" type="text" placeholder="Search albums.." autofocus>
+                <input id="search" v-model="search" type="text" placeholder="Search albums.." autofocus v-on:focus="trackEvent('focus', 'search')" v-on:blur="trackEvent('search', search)">
             </div>
 
             <p>{{filteredAlbums.length}} Albums</p>
@@ -45,11 +45,11 @@ export default {
         }
     },
     methods: {
-        trackClick: function (eventLabel) {
+        trackEvent: function (action, label) {
             this.$ga.event({
                 eventCategory: 'albums',
-                eventAction: 'click',
-                eventLabel: eventLabel
+                eventAction: action,
+                eventLabel: label
             });
         }
     }
