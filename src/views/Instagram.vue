@@ -24,7 +24,7 @@
             <div v-if="account" v-show="userInfoLoaded" class="user">
                 <div class="user-picture user-info">
                     <a :href="instagramBaseUrl + account.username" target="_blank" rel="noopener" v-on:click="trackClick('profile_picture')">
-                        <img :src="account.profile_picture" alt="Instagram Profile Picture" v-on:load="showUserInfo">
+                        <img v-lazy="account.profile_picture" alt="Instagram Profile Picture" v-on:load="showUserInfo">
                     </a>
                 </div>
                 <div class="user-info">
@@ -46,7 +46,7 @@
                     <div class="photo">
                         <div class="card">
                             <div class="card-image">
-                                <img :src="props.feed.images.standard_resolution.url" alt="Instagram Post Photograph">
+                                <img v-lazy="props.feed.images.standard_resolution.url" alt="Instagram Post Photograph">
                             </div>
 
                             <div class="card-metadata">

@@ -45,8 +45,7 @@ Vue.prototype.gapi = window.gapi;
 
 Vue.use(VueLazyload, {
     preLoad: 1.3,
-    attempt: 1,
-    lazyComponent: true
+    attempt: 2
 });
 
 new Vue({
