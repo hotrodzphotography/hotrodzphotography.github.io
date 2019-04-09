@@ -4,7 +4,7 @@
         <div id="album-count">
             <div>
                 <label for="search">Search albums: </label>
-                <input id="search" v-model="search" type="text" placeholder="Search albums.." autofocus v-on:focus="trackEvent('focus', 'search')" v-on:blur="trackEvent('search', search)">
+                <input id="search" v-model="search" type="text" placeholder="Search albums.." v-on:focus="trackEvent('focus', 'search')" v-on:blur="trackEvent('search', search)">
             </div>
 
             <p>{{filteredAlbums.length}} Albums</p>
