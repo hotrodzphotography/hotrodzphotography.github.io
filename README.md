@@ -56,13 +56,3 @@ npm run lint
 
 ### Customize Vue CLI Configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
-
-### References
-
-#### Google Photos
-* https://developers.google.com/api-client-library/javascript/start/start-js
-* https://stackoverflow.com/questions/51943422/google-photos-api-authentication
-* API Console Tester: https://developers.google.com/photos/library/reference/rest/v1/albums/list?apix_params=%7B%7D
-* https://developers.google.com/photos/library/reference/rest/v1/albums/list?apix_params=%7B%22access_token%22%3A%22AIzaSyDQvtu-_m7i35b5BMCitQ7SxK77f1hcO2w%22%7D&apix=true
-* https://console.developers.google.com/apis/credentials?project=sample-project-236402&authuser=2&folder&organizationId
-* https://developers.google.com/api-client-library/javascript/start/start-js
