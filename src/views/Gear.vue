@@ -71,4 +71,38 @@
             }
         }
     }
+
+    @media @upToNarrowQuery {
+        #gear {
+            .equipment-section {
+                .camera, .lens {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    @media @extraNarrowAndUpQuery {
+        #gear {
+            .equipment-section {
+                .camera, .lens {
+                    width: 50%;
+                }
+            }
+        }
+    }
+
+    @media @largeAndUpQuery {
+        #gear {
+            .equipment-section {
+                .camera {
+                    width: 33.3%;
+                }
+
+                .lens {
+                    width: 25%;
+                }
+            }
+        }
+    }
 </style>
