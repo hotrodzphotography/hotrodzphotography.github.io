@@ -37,7 +37,7 @@ export default {
     props: {},
     data () {
         return {
-            sendFromEmailAddress: 'contact@hotrodzphotography.com',
+            sendFromEmailAddress: 'contact@michaelrodrigues.com',
             name: '',
             replyTo: '',
             subject: '',
