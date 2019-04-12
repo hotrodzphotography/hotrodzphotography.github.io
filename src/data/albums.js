@@ -3,6 +3,13 @@ export default class Albums {
         {
             name: 'MassCruisers Bass Pro Shops Cruise Night - 8/30/2018',
             location: '1 Bass Pro Shops Drive, Foxborough, MA',
+            url: 'https://photos.app.goo.gl/SJK233CHqqo43rUf9',
+            date: new Date('4/11/2019'),
+            albumCoverUrl: 'https://lh3.googleusercontent.com/qNtR_I6igxpjCoHesM4kiWgFBhDH1lgegqueUldtiUAESyDMJUmrJy6AMpUe9SYlfFeN3W28WiDESrU0E-mRFEhU6hcTuKVQQub0DD9upigeoLo1nTCjzg_06cfLjuc9P8Lw9PaMBqyb9Osq2fHjS6FSdRuWF19KdqcP3grDaifdT7yMiW0zrHjfGZveX25v8l41KRar7FdPqNYvvCNK-0myv-x_TRfjjIcKhvjy2twPlKagmVCe-AII6Q-jpN4H7zjQ2UL2-62-6C1KGP1L8bvYSv-es9OauGR_9HwD_Mh2i87uMwe6muZ3BJnLC6NMs9C2isQF63usKaMHtnbRx7wAVlDbow5R8Oytdm97WZA36V9mOpT_GyRrXJwb7rPHfb310iHFLDU53XFmJxdqg2FbMI0INZ7GvVg4QZjWSZqhCzD16Jd6OCNdpDew-v4SdJ0QB1fVrTD_C3U3Mm4UDB7DRkRh7fDvsK8gAYA4Af3BbpMwKo30igspX4uqGy4jEfCpy-y1FwkphZah9TbeuIwu85ZUcTFGGsddFZhXuR0YK6VcavEsx25tlgBFlQ_BgIRrQBmkdCGJt_kIRl4GrxXVZamu641u_SUKm_iRMCTRFA6l5mMj1waqwREc0jk7sicixFLU0HfXUM1sL2rkWayK6qk9Q5azyrssh2Ie1mhhCt2Ms_xOFo4TUtsYsLpC5pMH4AuzoCFXw5ySwePOogIk=w1454-h969-no'
+        },
+        {
+            name: 'MassCruisers Bass Pro Shops Cruise Night - 8/30/2018',
+            location: '1 Bass Pro Shops Drive, Foxborough, MA',
             url: 'https://photos.app.goo.gl/13UgHQpgDWZWufuG8',
             date: new Date('8/30/2018'),
             albumCoverUrl: 'https://lh3.googleusercontent.com/8__igjVC_K0KQdA4Xfv3wdOPDr3OpuuJ24SVWvKOfLRF1IwQXK7EAvg-h1AAsUrjf2ZmSnNW0BYMMpVtHWUTynQg70EfdhXeihuenIoc7ubK7TAXbLSA9TfqITMpA4xCejd_gnC-I8snII7xJU5uK2rW_WC39Dbh8UHNgBvf-itl1fHQoyw81XyWSR1gMJ_BGlrOEvhWLyp4J47Tly66axisC0atJuCtE1Jode6pL5unonwNJsOzn_Z3K-pybBZol0cDelylEgVv5zIXe1MD34UxCpPj8fctbZKI7VQcpIpBUDopQULYVi5Lz1X1WHhc4yGD41GNL3sNmhXNE0OrY_e5WYzqn0DzRpOkY4RFJifCRp6pAWeuhQpHjuCTDL-GqfOJep8oQq4-91xt8snjiVPatSB-_I1y_6e3Pg2uiWUfXixW7AjB4Q4NA5jQfktH9ev_hYNLAJMGPdxfxty5OO-I-ME0h1Jevtzn7SXDY3TSfbkNLnngDwHz1bTuFT9qgSbogRwMz5COqrvxLMZZoMSXmxytd3_YKmUINyhrCWY3ff20BZZSK0-1r23YD7AtzgAP43bFzjzKD6bw596eAFxnIT7jIV8HNgZpCXvuAjl1Pou6QGGoqe3hoNoOFlEmtaT-p6cNEcTMPMZdI7J0UgX6rTj7mLNvjgtK1NfRjflCX3n4sS0EkAzS9Xndbdq8XFf8vO0Rptroe72L1HP8alrK=w1440-h960-no'
