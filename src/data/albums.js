@@ -1,7 +1,7 @@
 export default class Albums {
     static albums = [
         {
-            name: 'MassCruisers Bass Pro Shops Cruise Night - 8/30/2018',
+            name: 'MassCruisers Bass Pro Shops Cruise Night - 4/11/2019',
             location: '1 Bass Pro Shops Drive, Foxborough, MA',
             url: 'https://photos.app.goo.gl/SJK233CHqqo43rUf9',
             date: new Date('4/11/2019'),
