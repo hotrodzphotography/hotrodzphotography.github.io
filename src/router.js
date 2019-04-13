@@ -32,6 +32,11 @@ export default new Router({
             component: () => import(/* webpackChunkName: "contact" */ './views/Contact.vue')
         },
         {
+            path: '/redirect',
+            name: 'redirect',
+            component: () => import(/* webpackChunkName: "redirect" */ './views/Redirect.vue')
+        },
+        {
             path: '*',
             name: 'notFound',
             component: () => import(/* webpackChunkName: "notFound" */ './views/NotFound.vue')
