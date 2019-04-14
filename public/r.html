@@ -24,6 +24,10 @@
                 var pair = vars[i].split('='),
                     key = pair[0];
 
+                if (key === 'name') {
+                    pair[1] = pair[1].replace(/\+/g, '');
+                }
+
                 queryStringArgs[key] = decodeURIComponent(pair[1]);
             }
 
@@ -42,6 +46,7 @@
 
             // Set page title
             if (queryStringArgs.name) {
+                queryStringArgs.name =
                 document.title = queryStringArgs.name;
             }
 
