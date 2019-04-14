@@ -25,7 +25,7 @@
                     key = pair[0];
 
                 if (key === 'name') {
-                    pair[1] = pair[1].replace(/\+/g, '');
+                    pair[1] = pair[1].replace(/\+/g, ' ');
                 }
 
                 queryStringArgs[key] = decodeURIComponent(pair[1]);
