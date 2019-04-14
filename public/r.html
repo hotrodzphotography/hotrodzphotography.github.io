@@ -40,6 +40,11 @@
         function onLoad () {
             var queryStringArgs = parseQueryString();
 
+            // Set page title
+            if (queryStringArgs.name) {
+                document.title = queryStringArgs.name;
+            }
+
             if (queryStringArgs.to) {
 
                 // Send event
