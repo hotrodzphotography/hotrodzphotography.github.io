@@ -72,7 +72,7 @@ export default {
                 // Convert the provided params to a query string
                 .map(function (key) {
                     if (queryStrParams[key]) {
-                        return key + '=' + queryStrParams[key];
+                        return encodeURIComponent(key) + '=' + encodeURIComponent(queryStrParams[key]);
                     }
                 })
                 // Filter out empty params
