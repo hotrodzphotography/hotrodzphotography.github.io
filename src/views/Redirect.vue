@@ -1,9 +1,6 @@
 <template>
     <div id="redirect">
-        <p v-if="$route.query.to" id="redirecting">Please wait... you are being redirected.</p>
-
-        <!-- Not a redirect: -->
-        <div v-else id="form">
+        <div id="form">
             <form autocomplete="off">
                 <div class="row">
                     <input id="name" v-model="name" type="text" placeholder="Name">
@@ -11,6 +8,10 @@
 
                 <div class="row">
                     <input id="url" v-model="url" type="url" placeholder="URL">
+                </div>
+
+                <div class="row">
+                    <input id="src" v-model="src" type="text" placeholder="Source">
                 </div>
 
                 <div id="output" class="row">
@@ -30,6 +31,7 @@ export default {
         return {
             name: '',
             url: '',
+            src: ''
         };
     },
     computed: {
@@ -37,10 +39,13 @@ export default {
             let location = window.location,
                 params = {
                     name: this.name,
-                    to: this.convertToUrl(this.url)
+                    to: this.url,
+                    src: this.src
                 };
 
-            return location.href + '?' + this.generateQueryString(params);
+            if (params.to) { params.to = this.convertToUrl(params.to); }
+
+            return location.origin + '/r.html?' + this.generateQueryString(params);
         }
     },
     created () {
