@@ -1,6 +1,13 @@
 export default class Albums {
     static albums = [
         {
+            name: 'MassCruisers Bass Pro Shops Cruise Night - 4/25/2019',
+            location: '1 Bass Pro Shops Drive, Foxborough, MA',
+            url: 'https://photos.app.goo.gl/GdwjRdZfBjoK46Zf7',
+            date: new Date('4/25/2019'),
+            albumCoverUrl: 'https://lh3.googleusercontent.com/I8e02v6DkNGJMtDhrtWsxH7iVelOOhKXLN-Fwcs146vDT83s3oZGEwJsRqy3w7tAiZfME3Rns40ftxuMkDwuV7-l9QU4xKSTN9csOGNBTknWQcPSeeyqT0Z7Pw9XEu8EGCF7SIzKPIHhVq2T9PyPjlHwmuIV188uzqee7OTyZcrNMjyVPGiei8LlY8zBxrV3jUJ5q97eYb_H2Lz92cAGRb4FWFw6FxLSxbcYuf6bzNu0g3oENyePCSZ-Kv-ysz4ciPzs5KLw7-bEwdu5WhfUUwWNlEUHwchtTp1uMSCCYy7DT7xj9i8XJcJ5Cn07H0mYdgKBjNSqo79epwoG1EHovs1oeu27ExB-GQ8aDIV01eV0jX931nOC8v3xPifGitc9dUNvEfG8v6UVLgg6QDtdh7kmUsAq4lPbxlLV2s_Su6A9sit4ulAHM7tYovMRRM0y6OVVZb_gEl50JWyfGO8ChT_g8qlyY7agZtDL7rZCMhim19g2Zrqn-_ukR5PEQzW6jw4rFy5NzHMAwaf3B7uzFN4bLEQJXSEg3LC0hQ2mNJkrCSSY-GjGAjf14LbfX7So4SRvkVpicRWWBQSYvnu0N0BOuzE3x9QAhGoz0cJn1woUniJxZFjUX5XmH_2g3YHc2_rV2GDi4LgXWeEYszoVdNX5Pg6G_Xbf6BWtqGDQkCNOPoc_vGMcEv344ia0sC0s1BmaXb1p6bb3jYtZTlf_PiGn=w2256-h1504-no'
+        },
+        {
             name: 'MassCruisers Bass Pro Shops Cruise Night - 4/11/2019',
             location: '1 Bass Pro Shops Drive, Foxborough, MA',
             url: 'https://photos.app.goo.gl/SJK233CHqqo43rUf9',
