@@ -1,6 +1,27 @@
 export default class Albums {
     static albums = [
         {
+            name: 'MassCruisers Bass Pro Shops Cruise Night - 5/9/2019',
+            location: '1 Bass Pro Shops Drive, Foxborough, MA',
+            url: 'https://photos.app.goo.gl/7XnTHKeWEAiYVqxZ9',
+            date: new Date('5/9/2019'),
+            albumCoverUrl: 'https://lh3.googleusercontent.com/WhGPaa0TzAYQKcpN5Gdwlvqo_lg6Gkjdwk0EBxTn_RyqqvDdnY6n93vYDiWA2Sy655aMJUsvHv-bW_S85uDjhOIEq9X_J8H-3vsOmUsKxyqj6aMkSqcCtKn7VIkJOgPtU5Qm20GBDOkzHRBP_Qq2Ed5sDr9SyFCEJbZIyu5e7ROma--fMZMPIZXthGsj8XsVuXbIyHrren6XwtCa27SPok1dJv0JRhv1XBkwpeR1TEeG_b-e3PGqAzd8y0TAmW0a1yfZJnoVwpqXtbXn6IOa6Eyxwm94Syg9W3sFt2YlKd_XKM3wf3w11VfcGMnHTGkGdq9vIDFkTY2Gnb5RK8Nrb-PR_j4FaKsAuzIVWn_nL_J6xOAihD4IaagoaKQQnydeeenrxsl8vr0PunUbhwDI7OLujvvrdTa5lkl8kNx080_SRYX67Z3D4-6ICLlZQZrlNbd4KZ_Oz-RVP_3F9c3715-MobvUzsA3sod33DOjoznVA2EKsIhPrblq8BVccRzRmLHq3kT7zRIQ6mnvTwO1z2JLObfCSCTHvFaF__9BVdAiEK9p1zQS_SpvPwRj1_4nHhCRBj28tK77ZNg0VYxzEBgTW95OvqXoQ4g4YAbK7m5BspW8F6KGE53X8CIwf8XHvAwsKLktp1Jp0D6VROnifCvhTsSpFDir0ZJgXgjuu8JvDUOrPQMEaL_2kLehTa9dnPsCl6t9m8qUus1fVlhN3zxz=w2256-h1504-no'
+        },
+        {
+            name: 'Dodge Challenger Hellcat - Bass Pro Shops Cruise Night Shoot',
+            location: '1 Bass Pro Shops Drive, Foxborough, MA',
+            url: 'https://photos.app.goo.gl/nRk7mRH3QaM9yu186',
+            date: new Date('5/9/2019'),
+            albumCoverUrl: 'https://lh3.googleusercontent.com/xVBmn7aOiCIXgNtw9W2V2hGZoFH5MrxOS0gVZWWsLoEi1cAgqw5nCye4lwLR5eBFTk1hO2IzajPg1zvSgbsBzj0fdlTvZTt6HTctDJBN21vyc_M17jcAEYX_dC3FhgywXWXF9-VobDE8aOTX6BNfMnrS3ItUNvKXLZOUWUb-y0dE2PY05qDL7o1-g2uvX0Wi0Re6yjWPTq-XTYdeew9cZgUlKo1Tpdhx1_iKO5VELvce4bNtcJySFov1TNyBMGp0E4O369uQLp_mlL6q-uxTkuyyEF8PwJyKAbryDxxYhsX_SsPz2JOs1CCiSUQBIFUct6T19n2hYywOgh03dSpltGQak5XZLinS1Zw-no9FxG2ScN4FUKYkT5jEQWCc8_OeknVTxPpaLVTk3aVDoUZ5sFPurZiFEvk6EDs6JhpZnwQq1euIJNcSKpF-UpF4R5xsb7erXrIqpehDf-FaMqa3R-STYKY-n_N0T8JhF7rSHZmiFmN7VUUY9FnyFeBAXT8bK2im51b91-appTphHuOo7v-z03BabEBn-1N7s6YWFzFtKX_ONqvuQXurRzFQPrATYUTgDMrTCInU0WbyMp1E9mA9DTOZV09UL7lyfaqcPA5aHhLbZ6R8ilPOnSWcmJO1WP4NGGHU9bKNVF-ZTi2ZZKDO5JH12lSxHqrVMfXmsrVxmfTdMzqE4vO2ZEmnQheWkH_bSIHpcaZPSRQ2xk3lNh4J=w2258-h1504-no'
+        },
+        {
+            name: 'Jeep Grand Cherokee SRT - Bass Pro Shops Cruise Night Shoot',
+            location: '1 Bass Pro Shops Drive, Foxborough, MA',
+            url: 'https://photos.app.goo.gl/7XnTHKeWEAiYVqxZ9',
+            date: new Date('5/9/2019'),
+            albumCoverUrl: 'https://lh3.googleusercontent.com/huq7-LatRKBeLA41O_NmBzFs-uh7YQ8UkKaJCnVL_OKZ8rFpMx4GBSZV2BsRQ_7Po06yF61zfGuOayx2DDEx2Era5RyGO4I2PEiaY8lc1KyE7BzUW69rAFSiQrlMjoSgSKmRccaf8-qDQP3YH4mHzXv9QNFDsGSrwcysy1GEleuwJT4fnQqndSBut0o84TDOXGGB2ZIENA8jSa5_wUy59VO_3lSMDM1ZCOQ2hXrtnCjFXdyBINgGMrxmu_twTb5Z3Mfnsbt07qtCAkPWE4IPdy5mBR5bhxpYJnMKe6FuWcKc8rUkLLgpW5gFddfkY6X9EE1lEyobHVNmIJ20hRbblnRVvJ7lIZdcJuX_Fb3mW8hMRtuqvF6bKn4VAl4oZV57IrtVsulyzIs7K1_8dJxQeO0quySf2vnoHEA92ugtFO21ZKA78b-SX92o-R56YmO6BHqS78NnW7mZ6VAWIZZXxR7WUeHZKAls04H_A8kxdNLoTCwVa2i2VZOneteMYqwXOufNyLqKxmPe_C0BUfwKuSf-jVwUInEuExpl82V56X_xIrNm1t_qmZIA_l_tRTU5wUuShFE5nn-Ou1ypsJhhWB8qQ-IhtY1oYRX_lXSJTbEBgjj7RGeaBmZIujvNrKa9gGF3snPRHZ65QrZiDyJJkxdHlGbkwe8QA_GyibB3sgouPXmk1Ma995zLVu6NssjtRHD9NPh1JiYttIzcUlapjyA1=w2190-h1504-no'
+        },
+        {
             name: 'MassCruisers Bass Pro Shops Cruise Night - 4/25/2019',
             location: '1 Bass Pro Shops Drive, Foxborough, MA',
             url: 'https://photos.app.goo.gl/GdwjRdZfBjoK46Zf7',
