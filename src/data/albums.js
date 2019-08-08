@@ -1,6 +1,41 @@
 export default class Albums {
     static albums = [
         {
+            name: 'Q50 Newport Photoshoot - July 2019',
+            location: 'Newport, RI',
+            url: 'https://photos.app.goo.gl/vE93UgKHyfJN7y8k9',
+            date: new Date('7/27/2019'),
+            albumCoverUrl: 'https://lh3.googleusercontent.com/YKEplnjzsdo7OcmtqSBv7bhdaMtj6WnQ8txrvKuzFyFJGt8yQOOG1bZEG-11StY8cVcmXoPCQJ4jIQxyp1GQvlyn2ip7Wmo-ezPDISXmf6CU3pOckbGAlrmAl_giNUH0_j19-diZmEhBS3LWIOPyQfgnaOHXJF2p0NU5ergfBiDlu5pHLnsw4i5Kw_qARfK8H4zh_gHwdNd5l-RkQxQWEwBIEge2Kwwk4CKS8ZXgEAtD4hR330mWuw-dJleha45hS7L0RxdpEeU-ec-dMT6M_QCruVmaFJKnsaoEhHC0CokNamoorqrwZ1OzDiooXmVd4UGENcy5Z25eLBb9feHjFTwa1NcRC_2RwKrEo38DILepFxWDhRIl5Qov1WbBfkZt5v61zqqRMavdZLy6FhJtW1KbXTNIcyhjPrvMDJM9aUjX-arPJHmsPsGtZPI5lzF7uZPnnS0DP6zdxJ0OZmufPptcosTb8VY4pha3lTdrHUoHSlrq6V7bE-PotYRFE9WURabk2t9x5vGjO9IOF7zkv-AgSwf73cneh4x31JYYQJwm2M_G4kYo_7GGWGw7A9WyoIImK_qFFiMyzB1U-A4NCTrBZ6YDRXWuSEmhCCgAgmc-jXtrFfqWYYKY_ZZg_QS-R2qvU5JkuKsGdpFE-MhZDQGtAenHQG5K6KjJRuSK9yVzyJ-HlHos2lZ62HrtFAXjEoAi_xyT-ta4ScJKIy_vbGNE=w3122-h2080-no'
+        },
+        {
+            name: 'Audrain Auto Museum Cars and Coffee - 7/27/2019',
+            location: 'McAuley Hall, Newport, RI',
+            url: 'https://photos.app.goo.gl/LNC1nXXU7b5B1qD39',
+            date: new Date('7/27/2019'),
+            albumCoverUrl: 'https://lh3.googleusercontent.com/SuP2KNqXfc6y4NSvPieX4m7qYoVosAuUhpn4FAP89ub-kHvGadD9aCguuz1WXXvHWSsIEKdJtzcq9qkW8wlAjAg9zrNF-1Dw0KEcGwp_8cIg3TWjIqi6HG6LUPdVfJxKMjbOCleC_X5irP7urjwEZmUhQJ398Xs7oNJcnWyMfO9wQJSw4QaLqMsQ111eHLQfXtHZSlEaTPfT9Q_6CyBCfigb563z6g_GlUnK0rAf2UyUe0ovx9nKBB4ppIj-Cp2Pd6xdVe1iMg0G0QZ9Gov88__bNLFyk_IDTzgjank_t0VTDYOTl3oIkYi8lxcPAcHy0eW3kW4CY84iiXZznUDzQWb_H8pZtARf90CkZ9a7HpgWSfRe-Ry_WnfSarUSoFTa5X7SGkj6UWTp9aJw_WLQl19EmrlYBt4varif2mww9LH4I_XRMRU2YF1J-YaWtomqS_Hkjk_Zn7EyKQZxMeqLuyzOQN8Iw6U9_mytFbv2M-8w4SoWRMtSbXUPidnTxCt2kwo4ih6EMyHI0MxJOMfkt0PCX8OPAFa9TMkiWvPuNopHVLWF5v09fr2wdgmBEG659VotQ2oyC7lOGsZ7TNR6VFF4UvIHvgU6WllIx9QWH6BNVhNVKHK_QVeT0_ChVzK9zwtQ3Knyn8Cpwq6u2LXYOmhDOvzhjD9V5MFj4vc2lzE4Z_alqBFdRezuSDAgypklL8VUk4iS5q40fUYp74knmkqP=w3122-h2080-no'
+        },
+        {
+            name: 'MassCruisers Bass Pro Shops Cruise Night - 7/11/2019',
+            location: '1 Bass Pro Shops Drive, Foxborough, MA',
+            url: 'https://photos.app.goo.gl/f6ZGfvrpUwD6HFcm7',
+            date: new Date('7/11/2019'),
+            albumCoverUrl: 'https://lh3.googleusercontent.com/WveG-HiOMux2DMBYGxPrYtJMAJMsatD-UIlSG6N99cDD4pX-RKad6yLRGc0CEGwuVcKeE0pJqRunbxqP6kBxwfU682ODMOpnaJ1Xl4i7dObGgTmpc8hztLJBlo5PFzvZ-em4H1vfEyjv60af751xKRTqjLKb4OXqFEur4isCkyS2LGXvbSpas-OQCVYzrCEWUr8B6yKySzUxqmaLfUG2vCOhU6fTxqTbCC_htzgcIY8XOiGBGqJgTLyUA3-h5J1HAKF7dt_jw3OqsYVFI1tl8yBce5U51he3nLk4fwJf9nc6DGPRQdfy67tMajnOl4rhz7GJyUB5DsT7a7fNFYXHqwewLCVR1etBQANPN4J2npnvwk6tCrxkaAzJa_Xq6_eOmA7Q1r8jJrcfmQmquat873EIhopMIJARaQW_XimZVWxnyElzvE0PFruLFC_xPhl5ohp4LBK18pJJOzwPXZ6OJvenswVMG45_iTeDZOxHVaHQCuORTA1okRUCxVlpPdzLmaFKGUy2eEmpUyK8Hol8D8jtTXRsbuUhIR72klY5f6Lgex1WzLXjp_w_6x99ZwwS-Uj5RebEfYTWhitHEbBJsWdz6o3B97Fcq9WaW5xqLBESAmxMBKPFts8vvc2H4kIPfHqJRYMIPnQGN1ltdx9gGaVHDY9ktTyyW-wbho1tQOVL_TBDmYEkXVZf-kOIaFPE4otNCF8A65VOpf07jamELX5J=w3122-h2080-no'
+        },
+        {
+            name: '2012 Nissan 370z NISMO #483 Bass Pro Shoot',
+            location: '1 Bass Pro Shops Drive, Foxborough, MA',
+            url: 'https://photos.app.goo.gl/VR5kQURHGTuB1eBF8',
+            date: new Date('6/6/2019'),
+            albumCoverUrl: 'https://lh3.googleusercontent.com/qxg8rYv8mU4x32od_t8Bw9PoVj6AHqJahMxjwAYvjOCkmrzhERxB0ltFGR2DeM1g_FnAHuNMVIZqT6g2cRCmSMlGYZrCQ6GE8jOKZzaO-QDL6gBnRuKciUwa7W6YF9pGuJlRY_Ko45wzB370RZXG6NktzGFgc6xv2g8PHCsYdkkPrai37c0sn89u_opJuukW-HgZueyMOSypm-tP6bHEauJSvs0-zJs8V4DkHKznkw_Bc44564j6MppMb6SmYJLQoxybNggQF0sGJI_bxgszr8xWgGwtIyxcTS6ijRBjXq77nIjYejHYt-S2j69XHpKNe7HBfyuQ1GLqzJ3sKyBB8I_Qq23MircgC3uqhOgMQJ4ERxzuwBBhB71LvtARIH8o85uWOX1-pqKaEXhuz7PCIyKK8vWj2j7Ns_Aj8iC3y9bmfTiW3SmDL8Op85Rxzc_sHArsZwDFl2tlXYNJT_1jxBcRyWLlQiNQ3IxFcJXFnOJpJ91V9Wt5i8FssCd93zTwcOElBSU0dLiCOEnRJYiaP_XWKgd2bd9DxrA_u9gL1ziA9GcWm5Y1PhWV0RppJfxBYhT6UfEz1fMZCZtv5AgpGMjVQ7caQxvejX555R60kOTFiUpQU1iMajm4HjaRLKgDwYvYGZYzq5DPN7rRiOwee6dAjHGQLmfdSs-V184J1-mO1QjwI0W2LJzYbU7hkAWJhyqSUX4exP77E96sbmx5_Adv=w3122-h2080-no'
+        },
+        {
+            name: 'MassCruisers Bass Pro Shops Cruise Night - 6/6/2019',
+            location: '1 Bass Pro Shops Drive, Foxborough, MA',
+            url: 'https://photos.app.goo.gl/YjAp8ahm7e9MhEay6',
+            date: new Date('6/6/2019'),
+            albumCoverUrl: 'https://lh3.googleusercontent.com/wPj9YubYJ3RvolWSeLWiXlrYBYsjIeq6xAROUqcVqYHL-XPFGf0snCAPPN-C33n1IeEXzirMPrntklSplucduJZH2bdWTObohw6VZ49ZdGRNvnFL8-mb22AcE63zceJrF-sa7iWZOYBO0xxvoGmOd23Z-Oogr_e4czVO7kznxDRIDvb6oJk-xeZYKdpoy9wb1h_p5-mtudF7_ASm8ndEAc0B_FyOp5AdFV5gaKa5dFb0F31hIn30v-htiidId_xzxjja0EeXXZ6NAiAdCGQ9BEPkaBN4aW1U1rJTOrbtwyR_bU4_X3BGea0xPyl6MjAs44zjNXYG_ryLbRD2IpVNWbl1q6IUUxfiqQU4JufxJ7qYGc1X-e6R_Jjj7Gy436ZZ_NgC25s52zOJ2PC1xPj0Enc0IaM2tavfBxcnfnu81TUtQXU33phNqo1Vbyd5At0P0Yc1QR1_mWBTp2VPPw11dJSqZ4zaJXgj__vqaeWniMFAB68JdVaaoiZlm4BNSeihJCxksaaHLMQEMWOb2wP-QLLQJQ8ck6KN_cPUQpuKqAYevH93HlSpQ0J0TjQ22IBLxM6oQFZJnZQiv53WTp3yNgsju9X7qH65fl4uFGFffAo1c-HCWzMxLr5Twf9XcZ2ZYXUUmjBGPotJppODqRjGB4_4ZOlcZ2gqISNvHusdmmF8Slhs9UcVtCY4uJwx6l7PxcI-GnYc44_3F9AxcAOS8q6-=w3122-h2080-no'
+        },
+        {
             name: 'MassCruisers Bass Pro Shops Cruise Night - 5/9/2019',
             location: '1 Bass Pro Shops Drive, Foxborough, MA',
             url: 'https://photos.app.goo.gl/7XnTHKeWEAiYVqxZ9',
