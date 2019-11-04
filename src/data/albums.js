@@ -1,5 +1,77 @@
 export default class Albums {
+    // Template:
+    // {
+    //     name: '',
+    //     location: '',
+    //     url: '',
+    //     date: new Date(''),
+    //     albumCoverUrl: ''
+    // },
+
     static albums = [
+        {
+            name: 'MassCruisers Bass Pro Shops Cruise Night - 10/24/2019',
+            location: '1 Bass Pro Shops Drive, Foxborough, MA',
+            url: 'https://photos.app.goo.gl/B18bT1P6iycHZfqVA',
+            date: new Date('10/24/2019'),
+            albumCoverUrl: 'https://lh3.googleusercontent.com/r3cHjazH_T3uNlx4voux8NgLbkCO3ekHakz4V-MeO0h8NinzRUR2H3eghmElRhaVtbX4mJ2sNeM1Ut0js4pJJMRWNY2f5_B2I2abDDPUE3JoFXOe-t8O1idr1B_GioiQMSx0zGAfr-4iz9O1ivXbRuJ_pUr6xo3uyyj_5LtH0dZ9S5NSN7w-FJYF3o-9BMuF03kWDQfoNHKXg2mdSEB4wvrFkXJuGrEJi48sdfHNzPvgjX9ez6wyqGEqmVe_zr31ZuZCAdlXFondTb3ex3Q9tCh-9PqFyhNgh9VjjlNf-4aDUmYzm_0g8JxzJIdHWQ_L0hoGC_3TSJ3zSQx6ggN8aznmQow1qhLsMIYq5FR9RPMteJt8LG8NPexjrgmQS_0tbtAsx1ZAJDXluoFB9VX4DdDjPSfRAB0xIav6TjaAoZ9DWOrAmX8wUoQcF2KxcOhQoV6lLmPOe0zf1B80n5v0gMI9fQcB58Ots4F22NzItwY23my5ymNRJQ-Ab6FKwmdyL_u36ppfxXxIalOnhbcnjkiO7UZoG4XuPricqz7cgiSR-91TwRc25-y0_4rLIMTugF1hZjuRbjmOzB6k4PQKKkr2XAXDjQ8CI6oTgeHbEmODv3LucgqTZ0BW0XFeMkpUKjJYc6nyS7vCZB3c-hSdEhgFXLg9gW8kyqsUkRpsvABEfrqZe0cFFz8ILKrXIeSvK2FEVnLoY7KdrqhhVmGEHmSw4BT2Q5UhenZbn9eOPm9JnFjA=w3122-h2080-no'
+        },
+        {
+            name: 'Audrain Concours & Motor Week - Concours d\'Elegance - 10/6',
+            location: 'The Breakers, Newport, RI',
+            url: 'https://photos.app.goo.gl/Sw4wxUYATDBC8kXv8',
+            date: new Date('10/6/2019'),
+            albumCoverUrl: 'https://lh3.googleusercontent.com/24yE5OfJIhMfOe2aSbjxQwcX_aMkD4ImUBO6sqcfsu6OteQNXBw5xgte-uf7DgDAN4lCw67UcpA5YpFhSn9456ZAHRaK6hlOvLs_8SHDJP9t_RMe--bY2-mV3YiSrujuELOSh7K0sQ9SrOgok6ymygkQJ3X04-OAtosEzMb_pmji6OnnWbjpujUD5SGV1wz3ZhPNE8X6PUfYgDIiIEUgIx9n1B_ZgrC8BodNgQJtcc1MBwTdKCHcxMkbkuCOL4c-M2INiORL_j83mhPrykLJuhXGLQ_7pOuk4WphGuzXw1Fxe5zemyDShEPETQnmpF1zxpyWuiTBZifCbL7nov3TL2hlQxCeQb1cwSn1rpGA3GlBWNfhGbF8lDUhDyBZQ_17Ikvs0e7Y4HyZyM2GMEMj2F0UBzWU2kkYFdl21hBgMLWX-VpUBSJg7ikcolCT6oRj1NAI-SZDUv6yk-lKxrQCWyAjloeUiyL0tQflGph00BYaANSLG3vkILGAAv1U82KY2tWQoJP32n_pqplIOjT6sqmc4eFS_xt9H3MIfkcv0KnYYP7qEBuFqwmCWnzk4FbAe7WBma9h2st5mB4TJXOeSc1LB8laNVLbfd5nhIB7jPsuysgsd13OZZq4xQICEW2ClwtEXXL2KVYBUtz4ogzSnWHz0gpL0bwEKTym6a_QH82B2dqng-sQ12mwK4PL1hqB5QTZK4dtE4jfVGP-OV0F0K4M90aX7WmmlXDYjo8XPKo9pUzE=w3122-h2080-no'
+        },
+        {
+            name: 'Audrain Concours & Motor Week - Cars & Coffee - 10/5',
+            location: 'Fort Adams State Park, Newport, RI',
+            url: 'https://photos.app.goo.gl/hN3oqFKDF2MyofTE8',
+            date: new Date('10/5/2019'),
+            albumCoverUrl: 'https://lh3.googleusercontent.com/RdA2JL3dbxEarGhmdZvjzUzLfas2x4dztTj6AuHtVfly8dYLppne9tRCJ6f28Cg-YWMkl4NDcs9jCgmghBNFYdztqVdL17Hk7MhXCBDwxIv91cJbtvZ8GoG14ujva3bZHGETiQMKX6sCpj33dcH-nDbOsA5YFs_wMiyn4I-wyztRGwuJ5FWp9jet7GXiKr89uDEQ5pVi_5z-oVmgGiqCzHDp6LGf4SlreY1bS6xQXLCcdD6RVcoOtZ9S-16_MuEXqwVhZEcv71rf3S-kx_EYURq3zMERRyZfgQ5Wc1_2vy_yuFAFUVk40YN-2BXhVIEo1KGOdmvZcNubxiewwCg-6gz4fOykeMAL_xo0j2mxzwAU8qI3Hc65mPn7ShDJYCIrrSQFZamxu2A8XEw03OhzJJNNEd87iYciUZhRINzaC0yfXAv4XhiWaL-AgWEA9Eq7oZAbB-rPSA2KWK1hqqh65r896rt0_9l9XxeaDYKuqun3Be6wIy2SjWu0_feem6f2htgRKlCbxN8-5J_ygco1Pww07e--YHa1VcKYNcfGiIVNrZJqm68HwpNExQESGUcSr4RMuDI7C9YMd-0NyiclaNFr5jBN4RMoZJ9t0W9IcurWp3w-zAa1splTIKjWbFXqtM4dcH-tNn39ID9gCdVs6a0ftN3uH9LHSHfYk4s6hzY_rjsP8rnXA-OBi223hwehWIn4ysbIzKD4C253q5fETN1zZ1KF2GhHPgtv46skXm88UIou=w3122-h2080-no'
+        },
+        {
+            name: 'Audrain Concours & Motor Week - The Gathering - 10/4',
+            location: 'Doris Duke\'s Rough Point, Newport, RI',
+            url: 'https://photos.app.goo.gl/8DotqfqZjTHzkPJV9',
+            date: new Date('10/4/2019'),
+            albumCoverUrl: 'https://lh3.googleusercontent.com/JJvtLiYEmhoQMIKDWthGmwdSCmNIJktMbNbsErkhICCeU1B6FbRI6kWLyZhTy0jRviy8e-UwV3Zim6IK-J-Cgq8FUF3jek-MTBea2b4MOPb8tBvvFi33NWjbMtUvibyVmUDGJqzJSx2u_eUWznTkj7ApcbqnTMu6ggALUeDxcziiZw0A7tMjBGfEit3NkbSe0it031O3AOhb7Pqx7ExX0y0Bx_frgIOt4sChg9ARQXer9kL5FMXOMQAvRyXWKQnYrAio9K9c_EbBHJ3cszMsgb_GUvI9U5NLE3rzm3DCON0nTjtY4LlsFat9oDoniaN7X8-cUVl-6eceqb-XrgCzflc5viH1T-mSU6nMr-b0kzxohs5RzMEEsT9kSqSTAz-Vp0YRx2UlogZpFIN6Hcg5M18xudM4-oO_AGcxdNO-V3iJK_sVeQVd7XEr4RYgM9Egl4leX5FkxAuDsGOcjtNYd4jGLaoYjiowzGwBGEYEYVZKZnbgc3py8LkDVM6h6TNbIH7mplYQ31PJ2IJQGSQhLDE6-OXAj0tYV7zNWYAmAGpmU1B6BAIuzz19gf1lUIKcXwNS0pIWl6n4b7orp01YCpgNRjgh2sIX1gIcMG4AC9W88_AUHii8LvK0E6INYt0FXwqrD_8xZNsrm8Id0l7dr8qGHn78WquTezmTQNcxgexJ8LO0Ky9lnkeq9jXjOvTjWznnkxHsEHOGxeikPRjngxiIj7_ux5M9LMVsX1Er7tWhHvYm=w3122-h2080-no'
+        },
+        {
+            name: 'Audrain Concours & Motor Week - 10/3',
+            location: 'Newport, RI',
+            url: 'https://photos.app.goo.gl/KUWb72Q6JLMTMMUc7',
+            date: new Date('10/3/2019'),
+            albumCoverUrl: 'https://lh3.googleusercontent.com/GkMscHlUJ40gFWzcv-Q3hJYkSej-QSVwmenE_37jKxA9LVh9AOjN-Pm3SRNCh2GEjilIG1EkXTGfIYYWwZtzC_5_aQJTmEQ7H75UxrByEr_fRfGtbBjmUkIel-9wRjbrbIduWgnABwGRvyE2wW9YP49cZxg-a5eOOpIjCFj9RGF14jiB9W8Ly2Q8Nntj6KXLj3okxoM8w0lH3wsHfONkvbJGp0yeNTm3nhQtdU7d1gk4zU1q_U3LyRWMMN1fqywGLuiacY24oyOm6o7dtjnlC97znmBujE2xZO-eKfgKb98n3qjyQ_Od9m47BEdZbK0vSkoREklK9l8EvqXNY_wEpnCzONoEu8kCO6WiCnEvRQTYtG_xchQhcW-DRAcn7etHSk80OJPIm5JIavmzVLNFbL4t9yr3N9o92rQEIP9lBcuzWsc4enpr72WMtsfLynRH94kZILHPLVw1eHFqTVpPL56zM2RypqaJDPVp_Ipq69bErk4Jqo4ggXXyQsxJIlpy0IrV_tn_wmSES_0Quhkr8qQ2h_p1Jxg7c30sQGyNnNDbga7jaB_ktj4usmylYL45ina3ZYP6LvlYLQe6dBe9hP3XRpSeEI-UXLJ2_GWNSqMDefhiO3vycM6NmMd6Er_y5ZHfc9_iqhCAp8BVtLb9nNRFGJLzxz0q15dRb6z-QFzenKiai7QOIrAUuczNrphmFCjWvfHhxy83VvRWsAsZEhcXnOLbMCmOH_Dne4geP5885lau=w2826-h2080-no'
+        },
+        {
+            name: 'MassCruisers Bass Pro Shops Cruise Night - 9/5/2019',
+            location: '1 Bass Pro Shops Drive, Foxborough, MA',
+            url: 'https://photos.app.goo.gl/RUweUjohoJ1NNgGz8',
+            date: new Date('9/5/2019'),
+            albumCoverUrl: 'https://lh3.googleusercontent.com/uRM6WY6bIaDyPQoVKBdupUqGdv3aNZp2t233XnCNIoxX1xDJhdP1KQtkYMXST998_oKRaF_PAsWrW-jc6q2Z0ATIRC8EEAU65jfC9ZLGC2YetLTk7A9KquXtyJGZczLqa0r39uQP3Zi9bcF8oXAUCIHymneDvOmBHoOG90nfW0XLYgml1ClcF29qtv8l6SMoETnI7XTO3-w4m93PdrBJ6XAMl5reaBqgF6DKl21A_X3ZJcaVZaFd4ij226g1Btusxl1CcVh3s8k3IoagHE8Xoyojmfw2aDTwLKCnrqIz1JDPXrJkTgDar-C3tGgPazKOI881ZDYE6s4_pRYBIZYB8EP5PU-scDfIDGLHvq147HF3M002XDEbNd7yO0eTDGJRDv2E_qu-5mXVB0cDSPQNtitOvrUmK9eikpbqySqDnnDpDzWErmE0b4SKQ43x7xXFdOjg9NrZOid1yYAoALibYh-J5w-GnAPKW_3R6bmC3BJJVJkZOueUfzSW388jr7Os4euC2Uyc4D5FaEeF7LqHzzvbJ4M9wSi8UzUy1gKZZkLDVy8poZdX-zyWmLfFd6A8Vt4ND68Oq8Jv5ah8X9fq1hRehG1J4E6Z-J3VBlV1ExwO8I7thMjl5qL787RYOPVP_5PM7tfY_frtmgm79dM8k3KP58tOqm2NyvpkWdVxwy-OA0L5ZTqm4OIo_NXOBdYbxDWKjXBgblMYxlmDgP8cSwz9smpDtzP80Uthp4jOCnnAo_6d=w3120-h2080-no'
+        },
+        {
+            name: 'Ninja 650 Shoot',
+            location: 'Colt State Park, Bristol, RI',
+            url: 'https://photos.app.goo.gl/tjrSyZ9uRp1vieKQ8',
+            date: new Date('9/1/2019'),
+            albumCoverUrl: 'https://lh3.googleusercontent.com/LmJltvKUtTNnNBWFCHRxa8LGiAJIOkv0UPlWCdPsLMcV43EdL3szqHLvPiR9CdALGFtYxgKDVAQAZcFHKvyvyBXjK8jS7mJi8tmNnmOJRFyoo7ZiZ6OCOUI6k5ZvKaD__-M21Xt4NYjMoBdwNrOiQ_8SS-Bi-AsF7Gxuo50okFxoSq1XU8bfmfnU8eZlhmBIyQ-5kGK05-tnDylH6aqTwpQQvOqs0JRaHxq7V9J87ZavwelLBESqGIFe83VXE4CnVpZIUFSLE6LfPLta8iacDjuWp88njB5t2SNP_erHJKsT7UmkIugwOE0Wxdp-qIjkpMKiRQ1GRbBwB-9slYW2BYiJSfSEueZd3XobUokefCyN5L6p3KdW4GTPXMzc2cuTbXhyuH-x4z6E_QA-hjayr9_gn_ZUlaAorji3gCnapHUy1OZtj0Lk2a_8B4n_GRjp9_gFa7MOQOpgHDtxAYiwJj-BvDS0gkE6tNWaGrm9fXO1M_yavDE2KfqqM__CvwiYREy4NqWeEbnt4sKKqcX4atLt6AGRbC5-WiCj0ey_ozz85Gg3vgPdpoT0NSaBq56aiDR3QMmLsiOTMfOgpaxJ4eXOvhJtU0CoybrsGvI5LYQqv1DoiFJqhINwA_Y-5zxuTlbNkoEbq5zOOnfRUhfWCzdMrNdEopY2HxDkRuLMpT54q7XFTJ9b2YNDvaS4o9qgg_84wAinnfL7rQl4_Iu5HyJ5ucF4ySJ68mVFNXC_N_7rBtk0=w3122-h2080-no'
+        },
+        {
+            name: 'Martha\'s Vineyard Day Trip',
+            location: 'Martha\'s Vineyard, MA',
+            url: 'https://photos.app.goo.gl/on6cjRnmbypsem6D9',
+            date: new Date('8/20/2019'),
+            albumCoverUrl: 'https://lh3.googleusercontent.com/mwtpsU9NMn68Um-B5cEE1NzJoaYVRhZc6yokujWVaLXGp1ReKrT-NKA7IdVtKdjxTgnLcOCXd17pvnlLqxrcPg_EgHj9E0s2c8h_fzQFkNAlO_hn29oU6MaFDoGzsDx0ucPXvBVR2e-3DyXIAPSmycwnb-Lue5gh4OAqlyjxznI6Wz28JAtN7qhfANCXUD6xjtwUVhH3utLy_GPBMw1LFzTUuHfe-4d49RjtL2YJq1oupu8BNilYUXEXQyjopahzM8gwulYONkWsvw4PpuuWCJbLMF6Adr7FsdbfW--HtEpD8I0R8-T3X-sx_orzdhlXAmlUyUM3eAt77gSKSrU1RVODGJzhOt3WkFPvlBhkZsQEzQXbms0iSe33eh7OfdGQ6GG4jbIw7Aw8igICAktOw-gKRhYXsrmgFcQQP9DURx_7r5-1alDZhvNDUZ7cGPQMbmqVflt3TF_Va_O6XRpAF2HYPoWL4C6TRy8g-sIzZ8lz4hNJqwrKL0waG5h9ypFN3TH2XqWtsXLqSwPQSbhbut1neSlOfWKJotvUh3ffHvJYbOhaNWQwMC8Z0mZLUc6kUTFIpW-mFGzWNbaWzdUfrGKciIqjFMZVpVBgbAe1N9AZfCOyDbfM4Uinqe7Jgeg7l9Ve61gdwjIqHw_3a9PZhgUEc9CR7_enko9KqMiiVV2D2kLA2i-HUpCWqq34luqJ5jJwZ7nAJkTAD3Kwv-PQP_rQ6kCmAPX43Rax_Idyi0GtSXli=w3122-h2080-no'
+        },
+        {
+            name: 'MassCruisers Bass Pro Shops Cruise Night - 8/15/2019',
+            location: '1 Bass Pro Shops Drive, Foxborough, MA',
+            url: 'https://photos.app.goo.gl/1ht6VXVoWYYhR2aZ9',
+            date: new Date('8/15/2019'),
+            albumCoverUrl: 'https://lh3.googleusercontent.com/dk-QsVhg4k8CcUj-FC1tUbVHtrNG-q-Vosrq5niKHfUxXEBFq_vMbfpYf5-0Ide99db8tS_mMdZbRHukQumQOCNbJsSmnZ7P7qCu2DdfD4h-mIGFV6GgHSmJQ0IbAGAYAWGNAuSEcfqJXAGQwwPgY2dMWVtxEfrxjt5Vckv7nY1eqQPzMXa0I0ROO032nN1G3Pux5LeSE8gpEa8ZuJh82Q83EwM5kM9eX0SuH3p7Bhj4THk1IhBs_lJRCyjsMr9oHz23G2aHcU-t5ilVb1KAALcUSps_3GOPoJFO-vy76207_fxHk31ApBKTcYXk0X-awUiy1xOrheP0YH24rpvHdtr8iPFRWCjpw0eAYRSyw--GAIMbh5B1RxqINRF9AS1t_TWAZWvq4e6I8iihqt5epswhprorz4qIUAMsc3AHCROhYFq7U1Sg1R8b09yNMr-ODoOf-WqbI4mNTghTZUrEUofOrwqT3nk7YtQvUtRApE0hZV-c8S86kW_P_9rGs4nYzMhXrCIgeSkvrOrDMHGkMc8P5oqP7PB-9RGtc2_Td-LJhqKUYRsP9Bm_1TOFm_l9PxqBr4ynDDiwaD9ov0cLmJz6qojZQVnx7vkE7hPfyX_GvHtsPCli3GFOyOpXhtGgI3Q8-N0SxrJvpmH0eBopINXV7G-fhN9AS6qylGhHX66Ii8tX1CjKCHpp9AFy4MoDRp3QirmYbWx8ED0_Q9QiccBNX5uUW_5Xt-I_666vGLyYCFUy=w3122-h2080-no'
+        },
         {
             name: 'Q50 Newport Photoshoot - July 2019',
             location: 'Newport, RI',
