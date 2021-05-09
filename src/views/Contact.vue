@@ -2,11 +2,12 @@
     <div id="contact">
         <div class="row">
             <p>
-                Prefer to use your email client? Click to send an email:
+                Click to send an email:
                 <a :href="mailTo" class="mailto" rel="noopener" v-on:click="trackClick('mailTo')">{{destinationEmailAddress}}</a>.
             </p>
         </div>
 
+        <!--
         <form :action="destination" method="post">
             <div>
                 <input id="from" v-model="from" type="hidden" hidden name="from">
@@ -28,6 +29,7 @@
                 <input type="submit" class="button" value="Send Message" v-on:click="trackClick('sendButton')">
             </div>
         </form>
+        -->
     </div>
 </template>
 
@@ -43,10 +45,6 @@ export default {
             subject: '',
             body: '',
             destinationEmailAddress: 'hotrodzphotography@gmail.com',
-            username: 'api',
-            keyp0: 'key-',
-            keyp1: '90e27fb32160148dc1cc3890ef601355',
-            api: 'api.mailgun.net/v3/sandbox9fe48d38ba29476a918ece4c8b7700ec.mailgun.org/messages',
         };
     },
     computed: {
