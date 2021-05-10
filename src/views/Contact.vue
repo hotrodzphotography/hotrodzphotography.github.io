@@ -51,9 +51,9 @@ export default {
         from: function () {
             return (this.name || '') + ' <' + this.sendFromEmailAddress + '>';
         },
-        destination: function () {
-            return 'https://' + this.username + ':' + this.keyp0 + this.keyp1 + '@' + this.api;
-        },
+        // destination: function () {
+        //     return 'https://' + this.username + ':' + this.keyp0 + this.keyp1 + '@' + this.api;
+        // },
         mailTo: function () {
             return 'mailto: ' + this.destinationEmailAddress
                 + '?subject=' + this.subject
