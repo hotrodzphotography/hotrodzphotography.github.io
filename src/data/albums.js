@@ -14,7 +14,7 @@ export default class Albums {
             location: 'Secret Location',
             url: 'https://photos.app.goo.gl/cAnuy6c93ayiLshv9',
             date: new Date('10/15/2021'),
-            albumCoverUrl: 'https://lh3.google.com/pw/AM-JKLWpq7eSVgz9xyIR_siIpr7Is76ogDx31o5Xknxy1aaqXIe3pw3BfOlCbamkizi-vClQ0Qp6FkP6bEx-Vw7pLNI0o8vLpg=w960-h641-no'
+            albumCoverUrl: 'https://lh3.googleusercontent.com/pw/AMWts8CW7i_IvWisNaww2ICahhj3WCD-TWIW8kPHpJsVwDRHRcyZI8cDCEMjDnCbjF3at3TiuuNWs-gjw5FzGEcqeTb9mnwZwjZZmT7eGsIg6tg_QtLWBXe1Y-mwg2q6VksK0H-GP2fdmrKy5QqQ7syOQQ1r=w1289-h859-no?authuser=1'
         },
         {
             name: 'Audrain Concours 2021 - Concours d\'Elegance',
@@ -49,7 +49,7 @@ export default class Albums {
             location: 'Newport, RI',
             url: 'https://photos.app.goo.gl/w5NFZdb3R2yZmqi59',
             date: new Date('8/17/2021'),
-            albumCoverUrl: 'https://lh3.google.com/pw/AM-JKLV0XEKSMYr7tYevznGdISOPM4raTh3wPp8Nde_PdW_gelN277LM-EtqMHFpJ2SmMpFdQ9mzXN0xdMlk0TzlheCdJP59sA=w960-h640-no'
+            albumCoverUrl: 'https://lh3.googleusercontent.com/pw/AMWts8B6G4U6fAAQb1EoNEZAq70uzvgvQLYyZ4VZBdQQEQWWPcFYNQZNN1KDRj9CPYgkrM5D83o4_xZJ-ZA3swobdRtU_FZIENrqgGpaum7QS3tBhZnHMJmkKEFJfMjYRZyKV11x_6lXKOTXL2ZIMQoZEvgT=w1289-h859-no'
         },
         {
             name: 'GT350 Newport Shoot',
